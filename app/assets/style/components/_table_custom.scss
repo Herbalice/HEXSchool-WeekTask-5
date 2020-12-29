@@ -1,0 +1,22 @@
+.table {
+  margin-bottom: 63px;
+
+  thead th {
+    border-bottom: 1px solid $black;
+  }
+  th {
+    border-top: none;
+    padding: $table-cell-padding-sm  $table-cell-padding  $table-cell-padding-sm 0; // padding: 0 .25rem .75rem;
+  }
+  td {
+    border-bottom: 1px solid $secondary;
+    padding: 16px 0;
+  }
+  .btn:hover .material-icons {
+    color: $primary;
+  }
+}
+.table-hover tbody tr:hover {
+  color: $black;
+  background-color: $secondary;
+}

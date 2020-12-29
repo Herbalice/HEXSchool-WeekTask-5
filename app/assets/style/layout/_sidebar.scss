@@ -1,0 +1,27 @@
+.logo {
+  font-size: 1rem;
+}
+.sidebar {
+  max-width: 296px;
+  min-height: 100vh;
+
+  &__item:hover{
+    background: #d0e4da;
+  }
+  &__item--active {
+    position: relative;
+    a {
+      color: $primary;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      background-color: $primary;
+    }
+  }
+}

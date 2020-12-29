@@ -1,23 +1,23 @@
-$color: #00cc99;
+// 字型
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+// bootstrap
+@import "bootstrap/functions";
+// 自定義
+@import 'helpers/variables_custom';
+// @import "bootstrap/variables";
+@import 'bootstrap/bootstrap';
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+// base
+@import "base/base";
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+// layout
+@import "layout/sidebar";
+
+// components
+@import "components/media_custom";
+@import "components/table_custom";
+@import "components/form_custom";
+@import "components/modal_custom";
+
+// pages

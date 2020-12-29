@@ -1,12 +1,67 @@
 ---
-title: 首頁
+title: ANSWWER
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<h1>
-  這是一段話
-</h1>
-
-<div class="box"></div>
+<div class="col-12 col-sm-5 col-md-2">
+  <div class="sidebar bg-secondary d-flex flex-column justify-content-between h-100 pt-6 pb-5">
+    <nav class="sidebar__nav">
+      <h1 class="logo mb-6 pl-6">
+        <a href="#" class="d-inline-block">
+          <img src="assets/images/logo-ANSWER.svg" alt="ANSWER-後台">
+        </a>
+      </h1>
+      <ul class="nav__content list-unstyled flex-grow-1">
+        <li class="sidebar__item sidebar__item--active pl-6 mb-2">
+          <a href="#" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">insert_chart</span>
+            <span class="align-middle font-weight-bold">Dashboard</span>
+          </a>
+        </li>
+        <li class="sidebar__item pl-6 mb-2">
+          <a href="#" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">forum</span>
+            <span class="align-middle font-weight-bold">Question</span>
+          </a>
+        </li>
+        <li class="sidebar__item pl-6 mb-2">
+          <a href="assignment.html" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">assignment</span>
+            <span class="align-middle font-weight-bold">Assignment</span>
+          </a>
+        </li>
+        <li class="sidebar__item pl-6 mb-2">
+          <a href="#" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">video_library</span>
+            <span class="align-middle font-weight-bold">Course</span>
+          </a>
+        </li>
+        <li class="sidebar__item pl-6 mb-2">
+          <a href="admin.html" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">people</span>
+            <span class ="align-middle font-weight-bold">Admin</span>
+          </a>
+        </li>
+        <li class="sidebar__item pl-6 mb-2">
+          <a href="#" class="sidebar__item-link--link py-2">
+            <span class="nav__icon mr-3 material-icons align-middle">settings</span>
+            <span class ="align-middle font-weight-bold">Settings</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="sidebar__user pl-6">
+      <div class="media align-items-center flex-wrap">
+        <div class="media-img rounded-circle mr-3 overflow-hidden">
+          <img src="assets/images/andychen.jpeg" class="img-fluid" alt="sidebar__user--img">
+        </div>
+        <div class="media-body">
+          <p class="font-weight-bold">Andy Chen</p>
+          <p><a class="text-light font-size-sm d-inline-block" href="mailto:andy0401@mail.com">andy0401@mail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
